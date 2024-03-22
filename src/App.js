@@ -1,11 +1,6 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import User from './Studentdetails';
 import SamLogin from './Login1';
-import Dashboard from './Dashboard';
-import Studentdetails from './Studentdetails';
-import Attendance from './Attendance';
-import SpeechComponent from './SpeechComponent';
 import Register from './Register';
 import DefaultLayout from './Layouts/DefaultLayout';
 import Login from './Login';
