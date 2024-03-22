@@ -1,0 +1,141 @@
+body {
+  background: #ffffff;
+}
+
+.content {
+  padding-left: 220px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.custum_content {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 5px 5px 15px #8e64e0;
+  /* border-color: #712ef9; */
+  /* border:  #712ef9; */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  /* Ensures the container takes up the full height of the viewport */
+}
+
+.stu-tbl {
+  width: unset
+    /* padding: 20px; */
+    /* border: 1px solid #ccc; */
+    /* border-radius: 8px; */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+.image_preview {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 40%;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0px;
+  z-index: 1999;
+  height: 100%;
+  width: 200px;
+  background-color: #712ef9;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+  border-color: #863A6F;
+  border: 2cm;
+}
+
+.menu-item {
+  padding: 20px;
+  color: #ffffff;
+  /* background-color: #FFADBC; */
+  width: auto;
+  text-align: left;
+
+}
+
+.menu-item:hover {
+  background-color: #ffffff;
+  /* Change color on hover */
+  color: rgb(0, 0, 0);
+}
+
+.container-fluid {
+  background-color: #863A6F;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  /* Ensures the container takes up the full height of the viewport */
+}
+
+.login-card {
+  /* background-color: #712ef9; */
+  /* border: #712ef9; */
+  /* border-color: #622ad1; */
+  border-radius: 1pc;
+  box-shadow: 5px 5px 20px #8e64e0;
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+  width: 45%;
+  /* height: 90vh; */
+  /* Ensures the container takes up the full height of the viewport */
+
+}
+
+.menu-item.active {
+  background-color: #fdfcff;
+  color: rgb(0, 0, 0);
+  border: #8e64e0;
+  /* Text color */
+}
+
+/* .img {
+  background-image: url('./Asset/school.jpg');
+  position: center;
+  background-size: cover;
+  height: 90vh;
+  width: 79vw;
+} */
+
+.img {
+  background-image: url('./Asset/school.jpg');
+
+  /* position: fixed; */
+  position: center;
+  background-size: cover;
+
+  width: 100%;
+  height: 86vh;
+   /* Adjust height as needed */ 
+}
+.bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.dashboard-header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  color:#712ef9;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder
+}
